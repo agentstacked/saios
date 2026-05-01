@@ -1,0 +1,7 @@
+{
+  "thread_id": "thread_001",
+  "from": "Sarah Kim <sarah@acmeco.com>",
+  "subject": "Stripe payment failed for May invoice",
+  "snippet": "Hey, our card on file just got declined for the May invoice...",
+  "body": "Hey,\n\nOur card on file just got declined for the May invoice ($2,400). Can you resend with the new card we set up last month? We're traveling this week so faster the better.\n\n— Sarah"
+}
