@@ -16,6 +16,10 @@ dev = [
     "pytest>=8.0.0",
     "ruff>=0.4.0",
 ]
+render = [
+    "elevenlabs>=1.0.0",
+    "pyyaml>=6.0",
+]
 
 [build-system]
 requires = ["hatchling"]

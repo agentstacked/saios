@@ -46,12 +46,16 @@ PER_RUN_USD_CAP=0.25
 - Python 3.11+
 - `uv` (`curl -LsSf https://astral.sh/uv/install.sh | sh` — or use pip)
 
+## Bonus — `render/` (the pipeline that made the demo videos)
+
+The walkthrough videos for these agents are produced by a fully autonomous pipeline in [`render/`](./render). VHS for terminal recording, ElevenLabs for AI voiceover, Remotion for composition. **No manual recording, no manual editing — write a Markdown brief, run `make render-inbox`, get an MP4.** See [`render/README.md`](./render/README.md).
+
 ## What's NOT in this starter (it's in SAIOS)
 
 - 9 more agents (Calendar Concierge, Proposal, Money Ops, Meeting → Action, DM Concierge, Idea Vault, Testimonial Harvester, Research, Wrap-Up)
 - The Operator Agent — the meta-agent that delegates to the others
 - Notion control panel + dashboard
-- Loom library, Operator's Playbook, eval pack
+- Walkthrough Library (12 AI-rendered videos), Operator's Playbook, eval pack
 - Managed hosting option
 
 → [Founders pricing](https://example.com/saios) — $147 until 100 buyers, then $247.
